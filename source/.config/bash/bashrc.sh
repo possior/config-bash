@@ -12,3 +12,9 @@ then
   source "$config/promptstatement.sh"
 fi
 
+if
+  [[ -f "$config/variable.sh" ]]
+then
+  source "$config/variable.sh"
+fi
+

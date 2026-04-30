@@ -41,6 +41,7 @@ fi
 installer "$ROOT/source/.config/bash/bashrc.sh" "$HOME/.config/bash/bashrc.sh"
 installer "$ROOT/source/.config/bash/alias.sh" "$HOME/.config/bash/alias.sh"
 installer "$ROOT/source/.config/bash/promptstatement.sh" "$HOME/.config/bash/promptstatement.sh"
+installer "$ROOT/source/.config/bash/variable.sh" "$HOME/.config/bash/variable.sh"
 
 source "$HOME/.bashrc"
 
