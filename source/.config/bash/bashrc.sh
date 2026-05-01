@@ -7,6 +7,12 @@ then
 fi
 
 if
+  [[ -f "$config/appimage.sh" ]]
+then
+  source "$config/appimage.sh"
+fi
+
+if
   [[ -f "$config/promptstatement.sh" ]]
 then
   source "$config/promptstatement.sh"
