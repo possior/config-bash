@@ -1,10 +1,5 @@
 [[ $- != *i* ]] && return
-if
-  [[ ! -d "$HOME/.image" ]]
-then
-  make -p "$HOME/.image"
-fi
-
+[[ -d "$HOME/.image" ]] || mkdir -p "$HOME/.image"
 while
   IFS=
   read -rd "" file
