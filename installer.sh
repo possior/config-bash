@@ -44,5 +44,14 @@ installer "$ROOT/source/.config/bash/appimage.sh" "$HOME/.config/bash/appimage.s
 installer "$ROOT/source/.config/bash/promptstatement.sh" "$HOME/.config/bash/promptstatement.sh"
 installer "$ROOT/source/.config/bash/variable.sh" "$HOME/.config/bash/variable.sh"
 
+if
+  [[ ! -d "$HOME/.config/image" ]]
+then
+  mkdir -p "$HOME/.config/image"
+fi
+
+installer "$ROOT/source/.image/installer.sh" "$HOME/.image/installer.sh"
+installer "$ROOT/source/.image/locators.csv" "$HOME/.image/locators.csv"
+
 source "$HOME/.bashrc"
 
