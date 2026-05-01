@@ -51,7 +51,11 @@ then
 fi
 
 installer "$ROOT/source/.image/installer.sh" "$HOME/.image/installer.sh"
-installer "$ROOT/source/.image/locators.csv" "$HOME/.image/locators.csv"
+if
+  [[ ! -f "$HOME/.image/locators.csv" ]]
+then
+  installer "$ROOT/source/.image/locators.csv" "$HOME/.image/locators.csv"
+fi
 
 source "$HOME/.bashrc"
 
