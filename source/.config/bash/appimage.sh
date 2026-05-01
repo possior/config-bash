@@ -1,3 +1,4 @@
+[[ $- != *i* ]] && return
 if
   [[ ! -d "$HOME/.image" ]]
 then
