@@ -1,10 +1,4 @@
-if
-  [[ -n "$(git rev-parse --show-toplevel 2>/dev/null)" ]]
-then
-  ROOT="$(git rev-parse --show-toplevel)"
-else
-  exit
-fi
+[[ -n "$(git rev-parse --show-toplevel 2>/dev/null)" ]] && ROOT="$(git rev-parse --show-toplevel)" || return
 
 installer() {
   fr="$1"
