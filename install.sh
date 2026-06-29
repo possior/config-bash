@@ -18,24 +18,24 @@ do
   case "$1" in
     "-o" | "--overwrite")
       if
-	[[ -z "${behavior}" ]]
+        [[ -z "${behavior}" ]
       then
-	behavior="overwrite"
-	shift 1
+        behavior="overwrite"
+        shift 1
       else
-	echo "!! detected conflicting behavior flags"
-	exit
+        echo "!! detected conflicting behavior flags"
+        exit
       fi
       ;;
     "-p" | "--preserve")
       if
-	[[ -z "${behavior}" ]]
+        [[ -z "${behavior}" ]]
       then
-	behavior="preserve"
+        behavior="preserve"
         shift 1
       else
-	echo "!! detected conflicting behavior flags"
-	exit
+        echo "!! detected conflicting behavior flags"
+        exit
       fi
       ;;
   esac
