@@ -63,7 +63,6 @@ if
   [[ ! -d ${HOME}/.config/bash ]]
 then
   mkdir -p ${HOME}/.config/bash
-
   echo ".. created the configuration directory"
 fi
 
