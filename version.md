@@ -6,6 +6,8 @@
 |:---:|:--- |
 | `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01/) |
 | `01.01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.01/) |
+| `01.01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.02/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.02/) |
+| `01.01.03` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.03/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.03/) |
 
 # Version Information
 
@@ -13,3 +15,5 @@
 |:---:|:--- |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01/) |
 | `01.01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.01/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.01/) |
+| `01.01.02` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.02/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.02/) |
+| `01.01.03` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.03/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.03/) |
