@@ -23,7 +23,7 @@ function preserver() {
     then
       curl -so ${HOME}/.config/bash/${1##*/} ${1}
     fi
-  if
+  fi
 }
 
 echo ".. initiated the process"
