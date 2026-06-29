@@ -8,6 +8,8 @@
 - [バージョン情報](./version.md)
 - [Bashをインストール](#bashをインストール)
 - [Bashの設定を適用](#bashの設定を適用)
+- 技術文書
+  - [`.bash_profile`](./doc/.bash_profile.md)
 
 ## Bashをインストール
 
@@ -32,6 +34,8 @@ bash <(curl -s https://raw.githubusercontent.com/possior/config-bash/default/ins
 - [Version Information](./version.md)
 - [Installing Bash](#installing-bash)
 - [Applying Bash Configuration](#applying-bash-configuration)
+- Technical Documents
+  - [`.bash_profile`](./doc/.bash_profile.md)
 
 ## Installing Bash
 
