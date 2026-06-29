@@ -2,9 +2,11 @@
 
 # Bashの設定
 
+## 目次
+
 # Bash Configuration
 
-Bash configuration files that I reuse.
+## Table of Contents
 
 ## How to Duplicate
 
