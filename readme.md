@@ -5,12 +5,14 @@
 ## 目次
 
 - [利用許諾（CC0、0BSD）](./license.md)
+- [バージョン情報](./version.md)
 
 # Bash Configuration
 
 ## Table of Contents
 
 - [License (CC0, 0BSD)](./license.md)
+- [Version Information](./version.md)
 
 ## How to Duplicate
 
