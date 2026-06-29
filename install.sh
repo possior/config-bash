@@ -69,11 +69,9 @@ fi
 
 case "${behavior:-overwrite}" in
   "overwrite")
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/bash.lua
     echo ".. downloaded configuration files (overwrite)"
     ;;
   "preserve")
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/bash.lua
     echo ".. downloaded configuration files (preserve)"
     ;;
   *)
