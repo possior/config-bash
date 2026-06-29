@@ -34,7 +34,7 @@ do
   case "$1" in
     "-o" | "--overwrite")
       if
-        [[ -z "${behavior}" ]
+        [[ -z "${behavior}" ]]
       then
         behavior="overwrite"
         shift 1
