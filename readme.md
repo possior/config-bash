@@ -10,6 +10,8 @@
 
 ## Bashをインストール
 
+[GNU公式サイト](https://www.gnu.org/software/bash/bash.html)（外部リンク）を参照すること。
+
 # Bash Configuration
 
 ## Table of Contents
@@ -19,3 +21,5 @@
 - [Installing Bash](#installing-bash)
 
 ## Installing Bash
+
+Reference the [GNU official site](https://www.gnu.org/software/bash/bash.html) (external link).
