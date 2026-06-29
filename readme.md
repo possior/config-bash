@@ -1,3 +1,7 @@
+[日本語](#Bashの設定)｜[English](#bash-configuration)
+
+# Bashの設定
+
 # Bash Configuration
 
 Bash configuration files that I reuse.
