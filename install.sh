@@ -1,13 +1,29 @@
 function overwriter() {
-  curl -so ${HOME}/.config/bash/${1##*/} ${1}
+  if
+    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
+  then
+    curl -so ${HOME}/${1##*/} ${1}
+  else
+    curl -so ${HOME}/.config/bash/${1##*/} ${1}
+  fi
 }
 
 function preserver() {
   if
-    [[ ! -f ${HOME}/.config/bash/${1##*/} ]]
+    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
   then
-    curl -so ${HOME}/.config/bash/${1##*/} ${1}
-  fi
+    if
+      [[ ! -f ${HOME}/${1##*/} ]]
+    then
+      curl -so ${HOME}/${1##*/} ${1}
+    fi
+  else
+    if
+      [[ ! -f ${HOME}/${1##*/} ]]
+    then
+      curl -so ${HOME}/.config/bash/${1##*/} ${1}
+    fi
+  if
 }
 
 echo ".. initiated the process"
