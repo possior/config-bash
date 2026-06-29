@@ -84,3 +84,5 @@ case "${behavior:-overwrite}" in
     exit
     ;;
 esac
+
+source ${HOME}/.bashrc
