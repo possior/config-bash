@@ -10,5 +10,5 @@ export HISTSIZE=12
 
 alias grep='grep --color=auto'
 alias ls='ls -A --color=auto'
-alias yay='yay --builddir /var/tmp --color auto'
-alias yay!='yay --sudoloop --builddir /var/tmp --color auto --overwrite "*"'
+alias yay='yay --builddir=/var/tmp --color=auto'
+alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
