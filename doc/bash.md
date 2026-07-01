@@ -48,6 +48,36 @@ PS3=": "
 PS4="+ "
 ```
 
+各命令文とその出力の間に表示する文字列を設定する。
+
+``` bash
+PS0=""
+```
+
+各命令文の前に表示する文字列を設定する。`\n`は改行、`\u`はユーザー名、`\h`はコンピュータ名、`\w`は作業ディレクトリを指す。
+
+``` bash
+PS1="\n[\u@\h] \w\n$ "
+```
+
+命令文が複数行に渡る場合などに表示する文字列を設定する。
+
+``` bash
+PS2="> "
+```
+
+メニュー操作時に表示する文字列を設定する。
+
+``` bash
+PS3=": "
+```
+
+デバック時に表示する文字列を設定する。
+
+``` bash
+PS4="+ "
+```
+
 ## 環境変数の設定
 
 ``` bash
@@ -110,6 +140,36 @@ PS0=""
 PS1="\n[\u@\h] \w\n$ "
 PS2="> "
 PS3=": "
+PS4="+ "
+```
+
+Configure the string to display after each command and before its output.
+
+``` bash
+PS0=""
+```
+
+Configure the string to display before each command. `\n` means a line break, `\u` username, `\h` computer name, and `\w` working directory.
+
+``` bash
+PS1="\n[\u@\h] \w\n$ "
+```
+
+Configure the string to display for a multi-line command for example.
+
+``` bash
+PS2="> "
+```
+
+Configure the string to display for interacting with a menu.
+
+``` bash
+PS3=": "
+```
+
+デバック時に表示する文字列を設定する。
+
+``` bash
 PS4="+ "
 ```
 
