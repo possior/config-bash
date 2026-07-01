@@ -5,6 +5,9 @@
 ## 目次
 
 - [基本構造](#基本構造)
+- [プロンプト文字列の設定](#プロンプト文字列の設定)
+- [環境変数の設定](#環境変数の設定)
+- [アライアスの設定](#アライアスの設定)
 
 ## 基本構造
 
@@ -40,6 +43,9 @@ alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
 ## Table of Contents
 
 - [Basic Structure](#basic-structure)
+- [Configuration of Prompt Strings](#configuration-of-prompt-strings)
+- [Configuration of Environmental Variables](#configuration-of-environmental-variables)
+- [Configuration of Aliases](#configuration-of-aliases)
 
 ## Basic Structure
 
