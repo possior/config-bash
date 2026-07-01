@@ -75,7 +75,7 @@ export HISTSIZE=12
 
 Configuration of aliases.
 
-```
+``` bash
 alias grep='grep --color=auto'
 alias ls='ls -A --color=auto'
 alias yay='yay --builddir=/var/tmp --color=auto'
