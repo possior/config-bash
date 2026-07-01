@@ -38,6 +38,12 @@ alias yay='yay --builddir=/var/tmp --color=auto'
 alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
 ```
 
+## プロンプト文字列の設定
+
+## 環境変数の設定
+
+## アライアスの設定
+
 # Technical Document
 
 ## Table of Contents
@@ -75,3 +81,9 @@ alias ls='ls -A --color=auto'
 alias yay='yay --builddir=/var/tmp --color=auto'
 alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
 ```
+
+## Configuration of Prompt Strings
+
+## Configuration of Environmental Variables
+
+## Configuration of Aliases
