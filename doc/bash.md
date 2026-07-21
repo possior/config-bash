@@ -114,7 +114,7 @@ export HISTSIZE="12"
 
 ジュリアのデポットのパスを設定する。
 
-- [Environment Variables｜`JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)
+- [Environment Variables｜`JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)（外部リンク）
 
 ```bash
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
@@ -122,7 +122,7 @@ export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 
 ジュリアの履歴ファイルのパスを設定する。
 
-- [Environment Variables｜`JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY)
+- [Environment Variables｜`JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY)（外部リンク）
 
 ```bash
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
@@ -130,7 +130,7 @@ export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 
 ジュリアで使用する編集器を設定する。
 
-- [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
+- [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)（外部リンク）
 
 ```bash
 export JULIA_EDITOR="vim"
@@ -138,7 +138,7 @@ export JULIA_EDITOR="vim"
 
 ジュリアアップのデポットのパスを設定する。
 
-- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)
+- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)（外部リンク）
 
 ```bash
 export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
@@ -267,7 +267,7 @@ export HISTSIZE="12"
 
 Configure the path to the depot of Julia.
 
-- [Environment Variables | `JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)
+- [Environment Variables | `JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH) (external link)
 
 ```bash
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
@@ -275,7 +275,7 @@ export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 
 Configure the path to the history file of Julia.
 
-- [Environment Variables | `JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY)
+- [Environment Variables | `JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY) (external link)
 
 ```bash
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
@@ -283,7 +283,7 @@ export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 
 Configure the editor used in Julia.
 
-- [Environment Variables | `JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
+- [Environment Variables | `JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR) (external link)
 
 ```bash
 export JULIA_EDITOR="vim"
@@ -291,7 +291,7 @@ export JULIA_EDITOR="vim"
 
 Configure the path to the depot of Juliaup.
 
-- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)
+- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724) (external link)
 
 ```bash
 export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
