@@ -110,6 +110,8 @@ export HISTSIZE="12"
 
 ジュリアのデポットのパスを設定する。
 
+- [Environment Variables｜`JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)
+
 ```bash
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 ```
@@ -240,6 +242,8 @@ export HISTSIZE="12"
 ```
 
 Configure the path to the depot of Julia.
+
+- [Environment Variables | `JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)
 
 ```bash
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
