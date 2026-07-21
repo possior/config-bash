@@ -4,9 +4,9 @@ PS2="> "
 PS3=": "
 PS4="+ "
 
-export HISTFILE=${HOME}/.config/bash/history.sh
-export HISTFILESIZE=12
-export HISTSIZE=12
+export HISTFILE="${HOME}/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
 export JULIA_EDITOR="vim"
 
 alias 'grep'='grep --color=auto'
