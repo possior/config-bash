@@ -173,7 +173,7 @@ Configure the string to display for interacting with a menu.
 PS3=": "
 ```
 
-デバック時に表示する文字列を設定する。
+Configure the string to display for debugging.
 
 ```bash
 PS4="+ "
