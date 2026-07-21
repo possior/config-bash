@@ -136,6 +136,12 @@ export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
 ```
 
+ジュリアアップのデポットのパスを設定する。
+
+```bash
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
+```
+
 ## アライアスの設定
 
 ```bash
@@ -279,6 +285,12 @@ Configure the editor used in Julia.
 
 ```bash
 export JULIA_EDITOR="vim"
+```
+
+Configure the path to the depot of Juliaup.
+
+```bash
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
 
 ## Configuration of Aliases
