@@ -106,6 +106,12 @@ export HISTFILESIZE=12
 export HISTSIZE=12
 ```
 
+ジュリアで使用する編集器を設定する。
+
+```bash
+export JULIA_EDITOR="vim"
+```
+
 ## アライアスの設定
 
 ```bash
@@ -219,6 +225,12 @@ Configure the number of commands saved in the history of Bash.
 
 ```bash
 export HISTSIZE=12
+```
+
+Configure the editor used in Julia.
+
+```bash
+export JULIA_EDITOR="vim"
 ```
 
 ## Configuration of Aliases
