@@ -138,6 +138,8 @@ export JULIA_EDITOR="vim"
 
 ジュリアアップのデポットのパスを設定する。
 
+- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)
+
 ```bash
 export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
@@ -288,6 +290,8 @@ export JULIA_EDITOR="vim"
 ```
 
 Configure the path to the depot of Juliaup.
+
+- [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)
 
 ```bash
 export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
