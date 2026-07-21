@@ -10,6 +10,7 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 
 alias "grep"="grep --color=auto"
 alias "ls"="ls -A --color=auto"

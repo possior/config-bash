@@ -30,6 +30,7 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
 
 アライアスの設定。
@@ -90,6 +91,7 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
 
 バッシュの履歴ファイルのパスを設定する。
@@ -173,6 +175,7 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
 
 Configuration of aliases.
@@ -233,6 +236,7 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="${HOME}/.config/juliaup"
 ```
 
 Configure the path to the history file of Bash.
