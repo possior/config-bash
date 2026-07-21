@@ -92,6 +92,12 @@ export HISTSIZE=12
 export HISTFILE=${HOME}/.config/bash/history.sh
 ```
 
+バッシュの履歴ファイルに保存する命令文の数を設定する。
+
+```bash
+export HISTFILESIZE=12
+```
+
 ## アライアスの設定
 
 ```bash
@@ -191,6 +197,12 @@ Configure the path to the history file of Bash.
 
 ```bash
 export HISTFILE=${HOME}/.config/bash/history.sh
+```
+
+Configure the number of commands saved in the history file of Bash.
+
+```bash
+export HISTFILESIZE=12
 ```
 
 ## Configuration of Aliases
