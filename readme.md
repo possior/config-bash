@@ -9,6 +9,7 @@
 - [Bashの設定を適用](#bashの設定を適用)
 - 技術文書
   - [`.bash_profile`](./doc/.bash_profile.md)
+  - [`.bashrc`](./doc/.bashrc.md)
 
 ## Bashの設定を適用
 
@@ -30,6 +31,7 @@ curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/install
 - [Applying Bash Configuration](#applying-bash-configuration)
 - Technical Documents
   - [`.bash_profile`](./doc/.bash_profile.md)
+  - [`.bashrc`](./doc/.bashrc.md)
 
 ## Applying Bash Configuration
 
