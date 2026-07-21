@@ -23,7 +23,7 @@
 - `-p`, `--preserve`：設定ファイルが既に存在する場合は上書きしない。
 
 ``` bash
-bash <(curl -s https://raw.githubusercontent.com/possior/config-bash/default/install.sh)
+curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/install.sh | bash
 ```
 
 # Bash Configuration
@@ -49,5 +49,5 @@ To apply the latest configuration, execute the following command. You can modify
 - `-p`, `--preserve`: don't overwrite if configuration files already exist
 
 ``` bash
-bash <(curl -s https://raw.githubusercontent.com/possior/config-bash/default/install.sh)
+curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/install.sh | bash
 ```
