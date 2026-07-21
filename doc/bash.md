@@ -118,6 +118,12 @@ export HISTSIZE="12"
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 ```
 
+ジュリアの履歴ファイルのパスを設定する。
+
+```bash
+export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
+```
+
 ジュリアで使用する編集器を設定する。
 
 - [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
@@ -251,6 +257,12 @@ Configure the path to the depot of Julia.
 
 ```bash
 export JULIA_DEPOT_PATH="${HOME}/.config/julia"
+```
+
+Configure the path to the history file of Julia.
+
+```bash
+export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 ```
 
 Configure the editor used in Julia.
