@@ -24,19 +24,19 @@ PS4="+ "
 環境変数の設定。
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
-export HISTFILESIZE=12
-export HISTSIZE=12
+export HISTFILE="${HOME}/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
 export JULIA_EDITOR="vim"
 ```
 
 アライアスの設定。
 
 ```bash
-alias 'grep'='grep --color=auto'
-alias 'ls'='ls -A --color=auto'
-alias 'yay'='yay --builddir=/var/tmp --color=auto'
-alias 'yay!'='yay --sudoloop --overwrite="*"'
+alias "grep"="grep --color=auto"
+alias "ls"="ls -A --color=auto"
+alias "yay"="yay --builddir=/var/tmp --color=auto"
+alias "yay!"="yay --sudoloop --overwrite='*'"
 ```
 
 ## プロンプト文字列の設定
@@ -82,28 +82,28 @@ PS4="+ "
 ## 環境変数の設定
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
-export HISTFILESIZE=12
-export HISTSIZE=12
+export HISTFILE="${HOME}/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
 export JULIA_EDITOR="vim"
 ```
 
 バッシュの履歴ファイルのパスを設定する。
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
+export HISTFILE="${HOME}/.config/bash/history.sh"
 ```
 
 バッシュの履歴ファイルに保存する命令文の数を設定する。
 
 ```bash
-export HISTFILESIZE=12
+export HISTFILESIZE="12"
 ```
 
 バッシュの履歴に保存する命令文の数を設定する。
 
 ```bash
-export HISTSIZE=12
+export HISTSIZE="12"
 ```
 
 ジュリアで使用する編集器を設定する。
@@ -117,10 +117,10 @@ export JULIA_EDITOR="vim"
 ## アライアスの設定
 
 ```bash
-alias 'grep'='grep --color=auto'
-alias 'ls'='ls -A --color=auto'
-alias 'yay'='yay --builddir=/var/tmp --color=auto'
-alias 'yay!'='yay --sudoloop --overwrite="*"'
+alias "grep"="grep --color=auto"
+alias "ls"="ls -A --color=auto"
+alias "yay"="yay --builddir=/var/tmp --color=auto"
+alias "yay!"="yay --sudoloop --overwrite='*'"
 ```
 
 # Technical Document
@@ -147,19 +147,19 @@ PS4="+ "
 Configuration of environmental variables.
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
-export HISTFILESIZE=12
-export HISTSIZE=12
+export HISTFILE="${HOME}/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
 export JULIA_EDITOR="vim"
 ```
 
 Configuration of aliases.
 
 ```bash
-alias 'grep'='grep --color=auto'
-alias 'ls'='ls -A --color=auto'
-alias 'yay'='yay --builddir=/var/tmp --color=auto'
-alias 'yay!'='yay --sudoloop --overwrite="*"'
+alias "grep"="grep --color=auto"
+alias "ls"="ls -A --color=auto"
+alias "yay"="yay --builddir=/var/tmp --color=auto"
+alias "yay!"="yay --sudoloop --overwrite='*'"
 ```
 
 ## Configuration of Prompt Strings
@@ -205,28 +205,28 @@ PS4="+ "
 ## Configuration of Environmental Variables
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
-export HISTFILESIZE=12
-export HISTSIZE=12
+export HISTFILE="${HOME}/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
 export JULIA_EDITOR="vim"
 ```
 
 Configure the path to the history file of Bash.
 
 ```bash
-export HISTFILE=${HOME}/.config/bash/history.sh
+export HISTFILE="${HOME}/.config/bash/history.sh"
 ```
 
 Configure the number of commands saved in the history file of Bash.
 
 ```bash
-export HISTFILESIZE=12
+export HISTFILESIZE="12"
 ```
 
 Configure the number of commands saved in the history of Bash.
 
 ```bash
-export HISTSIZE=12
+export HISTSIZE="12"
 ```
 
 Configure the editor used in Julia.
@@ -240,8 +240,8 @@ export JULIA_EDITOR="vim"
 ## Configuration of Aliases
 
 ```bash
-alias 'grep'='grep --color=auto'
-alias 'ls'='ls -A --color=auto'
-alias 'yay'='yay --builddir=/var/tmp --color=auto'
-alias 'yay!'='yay --sudoloop --overwrite="*"'
+alias "grep"="grep --color=auto"
+alias "ls"="ls -A --color=auto"
+alias "yay"="yay --builddir=/var/tmp --color=auto"
+alias "yay!"="yay --sudoloop --overwrite='*'"
 ```
