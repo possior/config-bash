@@ -32,10 +32,10 @@ export HISTSIZE=12
 アライアスの設定。
 
 ``` bash
-alias grep='grep --color=auto'
-alias ls='ls -A --color=auto'
-alias yay='yay --builddir=/var/tmp --color=auto'
-alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
+alias 'grep'='grep --color=auto'
+alias 'ls'='ls -A --color=auto'
+alias 'yay'='yay --builddir=/var/tmp --color=auto'
+alias 'yay!'='yay --sudoloop --overwrite="*"'
 ```
 
 ## プロンプト文字列の設定
@@ -89,10 +89,10 @@ export HISTSIZE=12
 ## アライアスの設定
 
 ``` bash
-alias grep='grep --color=auto'
-alias ls='ls -A --color=auto'
-alias yay='yay --builddir=/var/tmp --color=auto'
-alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
+alias 'grep'='grep --color=auto'
+alias 'ls'='ls -A --color=auto'
+alias 'yay'='yay --builddir=/var/tmp --color=auto'
+alias 'yay!'='yay --sudoloop --overwrite="*"'
 ```
 
 # Technical Document
@@ -127,10 +127,10 @@ export HISTSIZE=12
 Configuration of aliases.
 
 ``` bash
-alias grep='grep --color=auto'
-alias ls='ls -A --color=auto'
-alias yay='yay --builddir=/var/tmp --color=auto'
-alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
+alias 'grep'='grep --color=auto'
+alias 'ls'='ls -A --color=auto'
+alias 'yay'='yay --builddir=/var/tmp --color=auto'
+alias 'yay!'='yay --sudoloop --overwrite="*"'
 ```
 
 ## Configuration of Prompt Strings
@@ -184,8 +184,8 @@ export HISTSIZE=12
 ## Configuration of Aliases
 
 ``` bash
-alias grep='grep --color=auto'
-alias ls='ls -A --color=auto'
-alias yay='yay --builddir=/var/tmp --color=auto'
-alias yay!='yay --sudoloop --builddir=/var/tmp --color=auto --overwrite="*"'
+alias 'grep'='grep --color=auto'
+alias 'ls'='ls -A --color=auto'
+alias 'yay'='yay --builddir=/var/tmp --color=auto'
+alias 'yay!'='yay --sudoloop --overwrite="*"'
 ```
