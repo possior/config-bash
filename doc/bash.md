@@ -27,6 +27,7 @@ PS4="+ "
 export HISTFILE="${HOME}/.config/bash/history.sh"
 export HISTFILESIZE="12"
 export HISTSIZE="12"
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_EDITOR="vim"
 ```
 
@@ -85,6 +86,7 @@ PS4="+ "
 export HISTFILE="${HOME}/.config/bash/history.sh"
 export HISTFILESIZE="12"
 export HISTSIZE="12"
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_EDITOR="vim"
 ```
 
@@ -150,6 +152,7 @@ Configuration of environmental variables.
 export HISTFILE="${HOME}/.config/bash/history.sh"
 export HISTFILESIZE="12"
 export HISTSIZE="12"
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_EDITOR="vim"
 ```
 
@@ -208,6 +211,7 @@ PS4="+ "
 export HISTFILE="${HOME}/.config/bash/history.sh"
 export HISTFILESIZE="12"
 export HISTSIZE="12"
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 export JULIA_EDITOR="vim"
 ```
 
