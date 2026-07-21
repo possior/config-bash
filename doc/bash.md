@@ -108,6 +108,8 @@ export HISTSIZE=12
 
 ジュリアで使用する編集器を設定する。
 
+- [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
+
 ```bash
 export JULIA_EDITOR="vim"
 ```
@@ -228,6 +230,8 @@ export HISTSIZE=12
 ```
 
 Configure the editor used in Julia.
+
+- [Environment Variables | `JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
 
 ```bash
 export JULIA_EDITOR="vim"
