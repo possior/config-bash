@@ -86,6 +86,12 @@ export HISTFILESIZE=12
 export HISTSIZE=12
 ```
 
+バッシュで実行した命令文の履歴を保存するファイルの位置を指定する。
+
+```bash
+export HISTFILE=${HOME}/.config/bash/history.sh
+```
+
 ## アライアスの設定
 
 ```bash
@@ -179,6 +185,12 @@ PS4="+ "
 export HISTFILE=${HOME}/.config/bash/history.sh
 export HISTFILESIZE=12
 export HISTSIZE=12
+```
+
+Specify the path to the file that saves the history of Bash commands executed.
+
+```bash
+export HISTFILE=${HOME}/.config/bash/history.sh
 ```
 
 ## Configuration of Aliases
