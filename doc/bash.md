@@ -108,6 +108,12 @@ export HISTFILESIZE="12"
 export HISTSIZE="12"
 ```
 
+ジュリアのデポットのパスを設定する。
+
+```bash
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
+```
+
 ジュリアで使用する編集器を設定する。
 
 - [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)
@@ -231,6 +237,12 @@ Configure the number of commands saved in the history of Bash.
 
 ```bash
 export HISTSIZE="12"
+```
+
+Configure the path to the depot of Julia.
+
+```bash
+export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 ```
 
 Configure the editor used in Julia.
