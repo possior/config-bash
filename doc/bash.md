@@ -86,7 +86,7 @@ export HISTFILESIZE=12
 export HISTSIZE=12
 ```
 
-バッシュで実行した命令文の履歴を保存するファイルの位置を設定する。
+バッシュの履歴ファイルのパスを設定する。
 
 ```bash
 export HISTFILE=${HOME}/.config/bash/history.sh
@@ -187,7 +187,7 @@ export HISTFILESIZE=12
 export HISTSIZE=12
 ```
 
-Configure the path to the file that saves the history of Bash commands executed.
+Configure the path to the history file of Bash.
 
 ```bash
 export HISTFILE=${HOME}/.config/bash/history.sh
