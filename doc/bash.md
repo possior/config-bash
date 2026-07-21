@@ -27,6 +27,7 @@ PS4="+ "
 export HISTFILE=${HOME}/.config/bash/history.sh
 export HISTFILESIZE=12
 export HISTSIZE=12
+export JULIA_EDITOR="vim"
 ```
 
 アライアスの設定。
@@ -84,6 +85,7 @@ PS4="+ "
 export HISTFILE=${HOME}/.config/bash/history.sh
 export HISTFILESIZE=12
 export HISTSIZE=12
+export JULIA_EDITOR="vim"
 ```
 
 バッシュの履歴ファイルのパスを設定する。
@@ -140,6 +142,7 @@ Configuration of environmental variables.
 export HISTFILE=${HOME}/.config/bash/history.sh
 export HISTFILESIZE=12
 export HISTSIZE=12
+export JULIA_EDITOR="vim"
 ```
 
 Configuration of aliases.
@@ -197,6 +200,7 @@ PS4="+ "
 export HISTFILE=${HOME}/.config/bash/history.sh
 export HISTFILESIZE=12
 export HISTSIZE=12
+export JULIA_EDITOR="vim"
 ```
 
 Configure the path to the history file of Bash.
