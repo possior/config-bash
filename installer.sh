@@ -88,7 +88,7 @@ case "${behavior:-overwrite}" in
     echo ":: downloaded documentation files (preserve)"
     ;;
   *)
-    echo "!! failed downloadation due to unknown internal variable value"
+    echo "!! failed downloading due to unknown internal variable value"
     exit
     ;;
 esac
@@ -99,3 +99,5 @@ then
   source "$HOME/.bashrc"
   echo ":: applied the configuration"
 fi
+
+echo ":: completed downloading configuration and documentation"
