@@ -5,6 +5,7 @@
 | 版号 | 接続先 |
 |:---:|:--- |
 | `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01/) |
+| `01.01.09` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.09/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.09/) |
 | `01.01.08` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.08/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.08/) |
 | `01.01.07` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.07/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.07/) |
 | `01.01.06` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.06/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.06/) |
@@ -19,6 +20,7 @@
 | Version | Links |
 |:---:|:--- |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01/) |
+| `01.01.09` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.09/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.09/) |
 | `01.01.08` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.08/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.08/) |
 | `01.01.07` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.07/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.07/) |
 | `01.01.06` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.06/)、[release](https://github.com/possior/config-bash/releases/tag/ver.01.01.06/) |
