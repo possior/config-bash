@@ -10,18 +10,18 @@ function overwriter() {
 
 function preserver() {
   if
-    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
+    [[ "${1##*/}" =~ ^\. ]]
   then
     if
-      [[ ! -f $HOME/${1##*/} ]]
+      [[ ! -f "$HOME/${1##*/}" ]]
     then
-      curl -so $HOME/${1##*/} $1
+      curl -fsSLo "$HOME/${1##*/}" "$1"
     fi
   else
     if
-      [[ ! -f $HOME/${1##*/} ]]
+      [[ ! -f "$HOME/${1##*/}" ]]
     then
-      curl -so $HOME/.config/bash/${1##*/} $1
+      curl -fsSLo "$HOME/.config/bash/${1##*/}" "$1"
     fi
   fi
 }
