@@ -100,22 +100,28 @@ export "QT_IM_MODULE"="fcitx"
 export "XMODIFIERS"="@im=fcitx"
 ```
 
+GTKにおいてFcitxによる多言語入力を有効化する。
+
+```bash
+export "GTK_IM_MODULE"="fcitx"
+```
+
 バッシュの履歴ファイルのパスを設定する。
 
 ```bash
-export HISTFILE="${HOME}/.config/bash/history.sh"
+export "HISTFILE"="${HOME}/.config/bash/history.sh"
 ```
 
 バッシュの履歴ファイルに保存する命令文の数を設定する。
 
 ```bash
-export HISTFILESIZE="12"
+export "HISTFILESIZE"="12"
 ```
 
 バッシュの履歴に保存する命令文の数を設定する。
 
 ```bash
-export HISTSIZE="12"
+export "HISTSIZE"="12"
 ```
 
 ジュリアのデポットのパスを設定する。
@@ -123,7 +129,7 @@ export HISTSIZE="12"
 - [Environment Variables｜`JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH)（外部リンク）
 
 ```bash
-export JULIA_DEPOT_PATH="${HOME}/.config/julia"
+export "JULIA_DEPOT_PATH"="${HOME}/.config/julia"
 ```
 
 ジュリアの履歴ファイルのパスを設定する。
@@ -131,7 +137,7 @@ export JULIA_DEPOT_PATH="${HOME}/.config/julia"
 - [Environment Variables｜`JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY)（外部リンク）
 
 ```bash
-export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
+export "JULIA_HISTORY"="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 ```
 
 ジュリアで使用する編集器を設定する。
@@ -139,7 +145,7 @@ export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 - [Environment Variables｜`JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR)（外部リンク）
 
 ```bash
-export JULIA_EDITOR="vim"
+export "JULIA_EDITOR"="vim"
 ```
 
 ジュリアアップのデポットのパスを設定する。
@@ -147,7 +153,19 @@ export JULIA_EDITOR="vim"
 - [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724)（外部リンク）
 
 ```bash
-export JULIAUP_DEPOT_PATH="${HOME}/.config"
+export "JULIAUP_DEPOT_PATH"="${HOME}/.config"
+```
+
+QtにおいてFcitxによる多言語入力を有効化する。
+
+```bash
+export "QT_IM_MODULE"="fcitx"
+```
+
+XウィンドウシステムにおいてFcitxによる多言語入力を有効化する。
+
+```bash
+export "XMODIFIERS"="@im=fcitx"
 ```
 
 ## アライアスの設定
@@ -259,22 +277,28 @@ export "QT_IM_MODULE"="fcitx"
 export "XMODIFIERS"="@im=fcitx"
 ```
 
+Enable the Fcitx multilingual input on GTK.
+
+```bash
+export "GTK_IM_MODULE"="fcitx"
+```
+
 Configure the path to the history file of Bash.
 
 ```bash
-export HISTFILE="${HOME}/.config/bash/history.sh"
+export "HISTFILE"="${HOME}/.config/bash/history.sh"
 ```
 
 Configure the number of commands saved in the history file of Bash.
 
 ```bash
-export HISTFILESIZE="12"
+export "HISTFILESIZE"="12"
 ```
 
 Configure the number of commands saved in the history of Bash.
 
 ```bash
-export HISTSIZE="12"
+export "HISTSIZE"="12"
 ```
 
 Configure the path to the depot of Julia.
@@ -282,7 +306,7 @@ Configure the path to the depot of Julia.
 - [Environment Variables | `JULIA_DEPOT_PATH`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_DEPOT_PATH) (external link)
 
 ```bash
-export JULIA_DEPOT_PATH="${HOME}/.config/julia"
+export "JULIA_DEPOT_PATH"="${HOME}/.config/julia"
 ```
 
 Configure the path to the history file of Julia.
@@ -290,7 +314,7 @@ Configure the path to the history file of Julia.
 - [Environment Variables | `JULIA_HISTORY`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_HISTORY) (external link)
 
 ```bash
-export JULIA_HISTORY="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
+export "JULIA_HISTORY"="${JULIA_DEPOT_PATH}/logs/REPLHistory.jl"
 ```
 
 Configure the editor used in Julia.
@@ -298,7 +322,7 @@ Configure the editor used in Julia.
 - [Environment Variables | `JULIA_EDITOR`](https://docs.julialang.org/en/v1/manual/environment-variables/#JULIA_EDITOR) (external link)
 
 ```bash
-export JULIA_EDITOR="vim"
+export "JULIA_EDITOR"="vim"
 ```
 
 Configure the path to the depot of Juliaup.
@@ -306,7 +330,19 @@ Configure the path to the depot of Juliaup.
 - [Custom location for julia, using juliaup](https://discourse.julialang.org/t/custom-location-for-julia-using-juliaup/114724) (external link)
 
 ```bash
-export JULIAUP_DEPOT_PATH="${HOME}/.config"
+export "JULIAUP_DEPOT_PATH"="${HOME}/.config"
+```
+
+Enable the Fcitx multilingual input on Qt.
+
+```bash
+export "QT_IM_MODULE"="fcitx"
+```
+
+Enable the Fcitx multilingual input on X Window System.
+
+```bash
+export "XMODIFIERS"="@im=fcitx"
 ```
 
 ## Configuration of Aliases
