@@ -24,6 +24,7 @@ PS4="+ "
 環境変数の設定。
 
 ```bash
+export "GIT_EDITOR"="vim"
 export "GTK_IM_MODULE"="fcitx"
 export "HISTFILE"="$HOME/.config/bash/history.sh"
 export "HISTFILESIZE"="12"
@@ -88,6 +89,7 @@ PS4="+ "
 ## 環境変数の設定
 
 ```bash
+export "GIT_EDITOR"="vim"
 export "GTK_IM_MODULE"="fcitx"
 export "HISTFILE"="$HOME/.config/bash/history.sh"
 export "HISTFILESIZE"="12"
@@ -98,6 +100,12 @@ export "JULIA_EDITOR"="vim"
 export "JULIAUP_DEPOT_PATH"="$HOME/.config"
 export "QT_IM_MODULE"="fcitx"
 export "XMODIFIERS"="@im=fcitx"
+```
+
+Gitで使用するテキスト編集器を設定する。
+
+```bash
+export "GIT_EDITOR"="vim"
 ```
 
 GTKにおいてFcitxによる多言語入力を有効化する。
@@ -201,6 +209,7 @@ PS4="+ "
 Configuration of environmental variables.
 
 ```bash
+export "GIT_EDITOR"="vim"
 export "GTK_IM_MODULE"="fcitx"
 export "HISTFILE"="$HOME/.config/bash/history.sh"
 export "HISTFILESIZE"="12"
@@ -265,6 +274,7 @@ PS4="+ "
 ## Configuration of Environmental Variables
 
 ```bash
+export "GIT_EDITOR"="vim"
 export "GTK_IM_MODULE"="fcitx"
 export "HISTFILE"="$HOME/.config/bash/history.sh"
 export "HISTFILESIZE"="12"
@@ -275,6 +285,12 @@ export "JULIA_EDITOR"="vim"
 export "JULIAUP_DEPOT_PATH"="$HOME/.config"
 export "QT_IM_MODULE"="fcitx"
 export "XMODIFIERS"="@im=fcitx"
+```
+
+Configure the text editor for Git.
+
+```bash
+export "GIT_EDITOR"="vim"
 ```
 
 Enable the Fcitx multilingual input on GTK.
