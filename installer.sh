@@ -72,12 +72,20 @@ case "${behavior:-overwrite}" in
     overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
     overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
     echo ".. downloaded configuration files (overwrite)"
+    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md
+    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md
+    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md
+    echo ".. downloaded documentation files (overwrite)"
     ;;
   "preserve")
     preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile
     preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
     preserver https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
     echo ".. downloaded configuration files (preserve)"
+    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md
+    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md
+    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md
+    echo ".. downloaded documentation files (preserve)"
     ;;
   *)
     echo "!! failed downloadation due to unknown internal variable value"
