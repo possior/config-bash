@@ -2,9 +2,9 @@ function overwriter() {
   if
     [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
   then
-    curl -so ${HOME}/${1##*/} ${1}
+    curl -so $HOME/${1##*/} $1
   else
-    curl -so ${HOME}/.config/bash/${1##*/} ${1}
+    curl -so $HOME/.config/bash/${1##*/} $1
   fi
 }
 
@@ -13,15 +13,15 @@ function preserver() {
     [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
   then
     if
-      [[ ! -f ${HOME}/${1##*/} ]]
+      [[ ! -f $HOME/${1##*/} ]]
     then
-      curl -so ${HOME}/${1##*/} ${1}
+      curl -so $HOME/${1##*/} $1
     fi
   else
     if
-      [[ ! -f ${HOME}/${1##*/} ]]
+      [[ ! -f $HOME/${1##*/} ]]
     then
-      curl -so ${HOME}/.config/bash/${1##*/} ${1}
+      curl -so $HOME/.config/bash/${1##*/} $1
     fi
   fi
 }
@@ -34,7 +34,7 @@ do
   case "$1" in
     "-o" | "--overwrite")
       if
-        [[ -z "${behavior}" ]]
+        [[ -z "$behavior" ]]
       then
         behavior="overwrite"
         shift 1
@@ -45,7 +45,7 @@ do
       ;;
     "-p" | "--preserve")
       if
-        [[ -z "${behavior}" ]]
+        [[ -z "$behavior" ]]
       then
         behavior="preserve"
         shift 1
@@ -60,9 +60,9 @@ done
 echo ".. parsed arguments"
 
 if
-  [[ ! -d ${HOME}/.config/bash ]]
+  [[ ! -d $HOME/.config/bash ]]
 then
-  mkdir -p ${HOME}/.config/bash
+  mkdir -p $HOME/.config/bash
   echo ".. created the configuration directory"
 fi
 
@@ -86,7 +86,7 @@ case "${behavior:-overwrite}" in
 esac
 
 if
-  [[ -f ${HOME}/.bashrc ]]
+  [[ -f $HOME/.bashrc ]]
 then
-  source ${HOME}/.bashrc
+  source $HOME/.bashrc
 fi
