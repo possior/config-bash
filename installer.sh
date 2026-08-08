@@ -1,10 +1,10 @@
 function overwriter() {
   if
-    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
+    [[ "${1##*/}" =~ ^\.  ]]
   then
-    curl -so $HOME/${1##*/} $1
+    curl -fsSLo "$HOME/${1##*/}" "$1"
   else
-    curl -so $HOME/.config/bash/${1##*/} $1
+    curl -fsSLo "$HOME/.config/bash/${1##*/}" "$1"
   fi
 }
 
