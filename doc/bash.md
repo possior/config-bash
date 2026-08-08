@@ -104,6 +104,8 @@ export "XMODIFIERS"="@im=fcitx"
 
 Gitで使用するテキスト編集器を設定する。
 
+- [Git Internals - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
+
 ```bash
 export "GIT_EDITOR"="vim"
 ```
@@ -288,6 +290,8 @@ export "XMODIFIERS"="@im=fcitx"
 ```
 
 Configure the text editor for Git.
+
+- [Git Internals - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 
 ```bash
 export "GIT_EDITOR"="vim"
