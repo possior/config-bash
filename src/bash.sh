@@ -4,6 +4,7 @@ PS2="> "
 PS3=": "
 PS4="+ "
 
+export "GIT_EDITOR"="vim"
 export "GTK_IM_MODULE"="fcitx"
 export "HISTFILE"="$HOME/.config/bash/history.sh"
 export "HISTFILESIZE"="12"
