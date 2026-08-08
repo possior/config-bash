@@ -39,7 +39,7 @@ export JULIAUP_DEPOT_PATH="${HOME}/.config"
 alias "grep"="grep --color=auto"
 alias "ls"="ls -A --color=auto"
 alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite='*'"
+alias "yay!"="yay --sudoloop --overwrite=\"*\""
 ```
 
 ## プロンプト文字列の設定
@@ -150,7 +150,7 @@ export JULIAUP_DEPOT_PATH="${HOME}/.config"
 alias "grep"="grep --color=auto"
 alias "ls"="ls -A --color=auto"
 alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite='*'"
+alias "yay!"="yay --sudoloop --overwrite=\"*\""
 ```
 
 # Technical Document
@@ -192,7 +192,7 @@ Configuration of aliases.
 alias "grep"="grep --color=auto"
 alias "ls"="ls -A --color=auto"
 alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite='*'"
+alias "yay!"="yay --sudoloop --overwrite=\"*\""
 ```
 
 ## Configuration of Prompt Strings
@@ -303,5 +303,5 @@ export JULIAUP_DEPOT_PATH="${HOME}/.config"
 alias "grep"="grep --color=auto"
 alias "ls"="ls -A --color=auto"
 alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite='*'"
+alias "yay!"="yay --sudoloop --overwrite=\"*\""
 ```
