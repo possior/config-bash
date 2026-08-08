@@ -29,7 +29,7 @@ function preserver() {
 echo ":: initiated the process"
 
 while
-  [[ $# -gt 0 ]]
+  [[ "$#" -gt "0" ]]
 do
   case "$1" in
     "-o" | "--overwrite")
@@ -60,31 +60,31 @@ done
 echo ":: parsed arguments"
 
 if
-  [[ ! -d $HOME/.config/bash ]]
+  [[ ! -d "$HOME/.config/bash" ]]
 then
-  mkdir -p $HOME/.config/bash
+  mkdir -p "$HOME/.config/bash"
   echo ":: created the configuration directory"
 fi
 
 case "${behavior:-overwrite}" in
   "overwrite")
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile"
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc"
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh"
     echo ":: downloaded configuration files (overwrite)"
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md"
     echo ":: downloaded documentation files (overwrite)"
     ;;
   "preserve")
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile"
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc"
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh"
     echo ":: downloaded configuration files (preserve)"
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md"
     echo ":: downloaded documentation files (preserve)"
     ;;
   *)
@@ -94,7 +94,8 @@ case "${behavior:-overwrite}" in
 esac
 
 if
-  [[ -f $HOME/.bashrc ]]
+  [[ -f "$HOME/.bashrc" ]]
 then
-  source $HOME/.bashrc
+  source "$HOME/.bashrc"
+  echo ":: applied the configuration"
 fi
