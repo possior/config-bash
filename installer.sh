@@ -74,7 +74,7 @@ case "${behavior:-overwrite}" in
     echo ":: downloaded configuration files (overwrite)"
     overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
     overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md"
+    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
     echo ":: downloaded documentation files (overwrite)"
     ;;
   "preserve")
@@ -84,7 +84,7 @@ case "${behavior:-overwrite}" in
     echo ":: downloaded configuration files (preserve)"
     preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
     preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.md"
+    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
     echo ":: downloaded documentation files (preserve)"
     ;;
   *)
