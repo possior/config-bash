@@ -70,34 +70,30 @@ then
   echo ":: created the configuration directory"
 fi
 
-case "${behavior:-overwrite}" in
-  "overwrite")
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh"
+case ${behavior:-overwrite} in
+  overwrite)
+    overwriter ${src%/}/.bash_profile
+    overwriter ${src%/}/.bashrc
+    overwriter ${src%/}/bash.sh
     echo ":: downloaded configuration files (overwrite)"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
-    overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
+    overwriter ${doc%/}/.bash_profile.md
+    overwriter ${doc%/}/.bashrc.md
+    overwriter ${doc%/}/bash.sh.md
     echo ":: downloaded documentation files (overwrite)"
     source $HOME/.bashrc
     echo ":: applied the configuration"
     ;;
-  "preserve")
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh"
+  preserve)
+    preserver ${src%/}/.bash_profile
+    preserver ${src%/}/.bashrc
+    preserver ${src%/}/bash.sh
     echo ":: downloaded configuration files (preserve)"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bash_profile.md"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
-    preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
+    preserver ${doc%/}/.bash_profile.md
+    preserver ${doc%/}/.bashrc.md
+    preserver ${doc%/}/bash.sh.md
     echo ":: downloaded documentation files (preserve)"
     source $HOME/.bashrc
     echo ":: applied the configuration"
-    ;;
-  *)
-    echo "!! failed downloading due to unknown internal variable value"
-    exit
     ;;
 esac
 echo ":: completed installation"
