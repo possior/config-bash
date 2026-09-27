@@ -24,17 +24,15 @@ PS4="+ "
 環境変数の設定。
 
 ```bash
-export "GIT_EDITOR"="vim"
-export "GTK_IM_MODULE"="fcitx"
-export "HISTFILE"="$HOME/.config/bash/history.sh"
-export "HISTFILESIZE"="12"
-export "HISTSIZE"="12"
-export "JULIA_DEPOT_PATH"="$HOME/.config/julia"
-export "JULIA_HISTORY"="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
-export "JULIA_EDITOR"="vim"
-export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-export "QT_IM_MODULE"="fcitx"
-export "XMODIFIERS"="@im=fcitx"
+export GIT_EDITOR="vim"
+export HISTFILE="$HOME/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
+export JULIA_DEPOT_PATH="$HOME/.config/julia/"
+export JULIA_HISTORY="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
+export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="$HOME/.config/"
+export XMODIFIERS="@im=fcitx"
 ```
 
 アライアスの設定。
@@ -89,17 +87,15 @@ PS4="+ "
 ## 環境変数の設定
 
 ```bash
-export "GIT_EDITOR"="vim"
-export "GTK_IM_MODULE"="fcitx"
-export "HISTFILE"="$HOME/.config/bash/history.sh"
-export "HISTFILESIZE"="12"
-export "HISTSIZE"="12"
-export "JULIA_DEPOT_PATH"="$HOME/.config/julia"
-export "JULIA_HISTORY"="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
-export "JULIA_EDITOR"="vim"
-export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-export "QT_IM_MODULE"="fcitx"
-export "XMODIFIERS"="@im=fcitx"
+export GIT_EDITOR="vim"
+export HISTFILE="$HOME/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
+export JULIA_DEPOT_PATH="$HOME/.config/julia/"
+export JULIA_HISTORY="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
+export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="$HOME/.config/"
+export XMODIFIERS="@im=fcitx"
 ```
 
 Gitで使用するテキスト編集器を設定する。
@@ -211,17 +207,15 @@ PS4="+ "
 Configuration of environmental variables.
 
 ```bash
-export "GIT_EDITOR"="vim"
-export "GTK_IM_MODULE"="fcitx"
-export "HISTFILE"="$HOME/.config/bash/history.sh"
-export "HISTFILESIZE"="12"
-export "HISTSIZE"="12"
-export "JULIA_DEPOT_PATH"="$HOME/.config/julia"
-export "JULIA_HISTORY"="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
-export "JULIA_EDITOR"="vim"
-export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-export "QT_IM_MODULE"="fcitx"
-export "XMODIFIERS"="@im=fcitx"
+export GIT_EDITOR="vim"
+export HISTFILE="$HOME/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
+export JULIA_DEPOT_PATH="$HOME/.config/julia/"
+export JULIA_HISTORY="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
+export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="$HOME/.config/"
+export XMODIFIERS="@im=fcitx"
 ```
 
 Configuration of aliases.
@@ -276,17 +270,15 @@ PS4="+ "
 ## Configuration of Environmental Variables
 
 ```bash
-export "GIT_EDITOR"="vim"
-export "GTK_IM_MODULE"="fcitx"
-export "HISTFILE"="$HOME/.config/bash/history.sh"
-export "HISTFILESIZE"="12"
-export "HISTSIZE"="12"
-export "JULIA_DEPOT_PATH"="$HOME/.config/julia"
-export "JULIA_HISTORY"="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
-export "JULIA_EDITOR"="vim"
-export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-export "QT_IM_MODULE"="fcitx"
-export "XMODIFIERS"="@im=fcitx"
+export GIT_EDITOR="vim"
+export HISTFILE="$HOME/.config/bash/history.sh"
+export HISTFILESIZE="12"
+export HISTSIZE="12"
+export JULIA_DEPOT_PATH="$HOME/.config/julia/"
+export JULIA_HISTORY="$JULIA_DEPOT_PATH/logs/REPLHistory.jl"
+export JULIA_EDITOR="vim"
+export JULIAUP_DEPOT_PATH="$HOME/.config/"
+export XMODIFIERS="@im=fcitx"
 ```
 
 Configure the text editor for Git.
