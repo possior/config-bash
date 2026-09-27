@@ -59,6 +59,10 @@ done
 
 echo ":: parsed arguments"
 
+doc=https://raw.githubusercontent.com/possior/config-bash/default/doc/
+src=https://raw.githubusercontent.com/possior/config-bash/default/src/
+echo ":: initiated variables"
+
 if
   [[ ! -d "$HOME/.config/bash" ]]
 then
