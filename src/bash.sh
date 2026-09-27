@@ -16,5 +16,6 @@ export XMODIFIERS="@im=fcitx"
 
 alias grep="grep --color=auto"
 alias ls="ls -A --color=auto"
+alias omegat="omegat --config-dir=$HOME/.config/omegat/"
 alias yay="yay --builddir=/var/tmp --color=auto"
-alias yay!="yay --sudoloop --overwrite=\"*\""
+alias yay!="yay --sudoloop --overwrite=*"
