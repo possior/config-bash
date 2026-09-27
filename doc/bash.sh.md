@@ -107,12 +107,6 @@ Gitで使用するテキスト編集器を設定する。
 export "GIT_EDITOR"="vim"
 ```
 
-GTKにおいてFcitxによる多言語入力を有効化する。
-
-```bash
-export "GTK_IM_MODULE"="fcitx"
-```
-
 バッシュの履歴ファイルのパスを設定する。
 
 ```bash
@@ -161,12 +155,6 @@ export "JULIA_EDITOR"="vim"
 
 ```bash
 export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-```
-
-QtにおいてFcitxによる多言語入力を有効化する。
-
-```bash
-export "QT_IM_MODULE"="fcitx"
 ```
 
 XウィンドウシステムにおいてFcitxによる多言語入力を有効化する。
@@ -292,12 +280,6 @@ Configure the text editor for Git.
 export "GIT_EDITOR"="vim"
 ```
 
-Enable the Fcitx multilingual input on GTK.
-
-```bash
-export "GTK_IM_MODULE"="fcitx"
-```
-
 Configure the path to the history file of Bash.
 
 ```bash
@@ -346,12 +328,6 @@ Configure the path to the depot of Juliaup.
 
 ```bash
 export "JULIAUP_DEPOT_PATH"="$HOME/.config"
-```
-
-Enable the Fcitx multilingual input on Qt.
-
-```bash
-export "QT_IM_MODULE"="fcitx"
 ```
 
 Enable the Fcitx multilingual input on X Window System.
