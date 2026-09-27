@@ -76,6 +76,8 @@ case "${behavior:-overwrite}" in
     overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
     overwriter "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
     echo ":: downloaded documentation files (overwrite)"
+    source $HOME/.bashrc
+    echo ":: applied the configuration"
     ;;
   "preserve")
     preserver "https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile"
@@ -86,18 +88,12 @@ case "${behavior:-overwrite}" in
     preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/.bashrc.md"
     preserver "https://raw.githubusercontent.com/possior/config-bash/default/doc/bash.sh.md"
     echo ":: downloaded documentation files (preserve)"
+    source $HOME/.bashrc
+    echo ":: applied the configuration"
     ;;
   *)
     echo "!! failed downloading due to unknown internal variable value"
     exit
     ;;
 esac
-
-if
-  [[ -f "$HOME/.bashrc" ]]
-then
-  source "$HOME/.bashrc"
-  echo ":: applied the configuration"
-fi
-
-echo ":: completed downloading configuration and documentation"
+echo ":: completed installation"
