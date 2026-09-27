@@ -38,10 +38,11 @@ export XMODIFIERS="@im=fcitx"
 アライアスの設定。
 
 ```bash
-alias "grep"="grep --color=auto"
-alias "ls"="ls -A --color=auto"
-alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite=\"*\""
+alias grep="grep --color=auto"
+alias ls="ls -A --color=auto"
+alias omegat="omegat --config-dir=$HOME/.config/omegat/"
+alias yay="yay --builddir=/var/tmp --color=auto"
+alias yay!="yay --sudoloop --overwrite=*"
 ```
 
 ## プロンプト文字列の設定
@@ -177,10 +178,11 @@ export "XMODIFIERS"="@im=fcitx"
 ## アライアスの設定
 
 ```bash
-alias "grep"="grep --color=auto"
-alias "ls"="ls -A --color=auto"
-alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite=\"*\""
+alias grep="grep --color=auto"
+alias ls="ls -A --color=auto"
+alias omegat="omegat --config-dir=$HOME/.config/omegat/"
+alias yay="yay --builddir=/var/tmp --color=auto"
+alias yay!="yay --sudoloop --overwrite=*"
 ```
 
 # Technical Document
@@ -221,10 +223,11 @@ export XMODIFIERS="@im=fcitx"
 Configuration of aliases.
 
 ```bash
-alias "grep"="grep --color=auto"
-alias "ls"="ls -A --color=auto"
-alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite=\"*\""
+alias grep="grep --color=auto"
+alias ls="ls -A --color=auto"
+alias omegat="omegat --config-dir=$HOME/.config/omegat/"
+alias yay="yay --builddir=/var/tmp --color=auto"
+alias yay!="yay --sudoloop --overwrite=*"
 ```
 
 ## Configuration of Prompt Strings
@@ -360,8 +363,9 @@ export "XMODIFIERS"="@im=fcitx"
 ## Configuration of Aliases
 
 ```bash
-alias "grep"="grep --color=auto"
-alias "ls"="ls -A --color=auto"
-alias "yay"="yay --builddir=/var/tmp --color=auto"
-alias "yay!"="yay --sudoloop --overwrite=\"*\""
+alias grep="grep --color=auto"
+alias ls="ls -A --color=auto"
+alias omegat="omegat --config-dir=$HOME/.config/omegat/"
+alias yay="yay --builddir=/var/tmp --color=auto"
+alias yay!="yay --sudoloop --overwrite=*"
 ```
