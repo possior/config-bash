@@ -15,15 +15,15 @@ function preserver() {
     [[ "${1##*/}" =~ ^\. ]]
   then
     if
-      [[ ! -f "$HOME/${1##*/}" ]]
+      [[ ! -f "${HOME%/}/${2#/}" ]]
     then
-      curl -fsSLo "$HOME/${1##*/}" "$1"
+      curl -fsSLo "${HOME%/}/${2#/}" "${1%/}/${2#/}"
     fi
   else
     if
-      [[ ! -f "$HOME/${1##*/}" ]]
+      [[ ! -f "${cfg%/}/${2#/}" ]]
     then
-      curl -fsSLo "$HOME/.config/bash/${1##*/}" "$1"
+      curl -fsSLo "${cfg%/}/${2#/}" "${1%/}/${2#/}"
     fi
   fi
 }
