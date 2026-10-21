@@ -1,6 +1,7 @@
 doc="https://raw.githubusercontent.com/possior/config-bash/default/doc/"
 src="https://raw.githubusercontent.com/possior/config-bash/default/src/"
 cfg="${HOME%/}/.config/bash"
+echo ":: initiated variables"
 
 function overwriter() {
   if
@@ -11,7 +12,6 @@ function overwriter() {
     curl -fsSLo "${cfg%/}/${2#/}" "${1%/}/${2#/}"
   fi
 }
-
 function preserver() {
   if
     [[ "${1##*/}" =~ ^\. ]]
@@ -29,8 +29,7 @@ function preserver() {
     fi
   fi
 }
-
-echo ":: initiated the process"
+echo ":: initiated functions"
 
 while
   [[ "$#" -gt 0 ]]
@@ -92,5 +91,4 @@ case "${behavior:-overwrite}" in
     echo ":: downloaded documentation files ($behavior)"
     ;;
 esac
-
 echo ":: completed installation"
