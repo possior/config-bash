@@ -29,25 +29,25 @@ function preserver() {
 echo ":: initiated the process"
 
 while
-  [[ "$#" -gt "0" ]]
+  [[ "$#" -gt 0 ]]
 do
   case "$1" in
-    "-o" | "--overwrite")
+    -o|--overwrite)
       if
         [[ -z "$behavior" ]]
       then
-        behavior="overwrite"
+        behavior=overwrite
         shift 1
       else
         echo "!! detected conflicting behavior flags"
         exit
       fi
       ;;
-    "-p" | "--preserve")
+    -p|--preserve)
       if
         [[ -z "$behavior" ]]
       then
-        behavior="preserve"
+        behavior=preserve
         shift 1
       else
         echo "!! detected conflicting behavior flags"
@@ -59,8 +59,8 @@ done
 
 echo ":: parsed arguments"
 
-doc=https://raw.githubusercontent.com/possior/config-bash/default/doc/
-src=https://raw.githubusercontent.com/possior/config-bash/default/src/
+doc="https://raw.githubusercontent.com/possior/config-bash/default/doc/"
+src="https://raw.githubusercontent.com/possior/config-bash/default/src/"
 echo ":: initiated variables"
 
 if
@@ -72,27 +72,27 @@ fi
 
 case ${behavior:-overwrite} in
   overwrite)
-    overwriter ${src%/}/.bash_profile
-    overwriter ${src%/}/.bashrc
-    overwriter ${src%/}/bash.sh
+    overwriter "${src%/}/.bash_profile"
+    overwriter "${src%/}/.bashrc"
+    overwriter "${src%/}/bash.sh"
     echo ":: downloaded configuration files (overwrite)"
-    overwriter ${doc%/}/.bash_profile.md
-    overwriter ${doc%/}/.bashrc.md
-    overwriter ${doc%/}/bash.sh.md
+    overwriter "${doc%/}/.bash_profile.md"
+    overwriter "${doc%/}/.bashrc.md"
+    overwriter "${doc%/}/bash.sh.md"
     echo ":: downloaded documentation files (overwrite)"
-    source $HOME/.bashrc
+    source "$HOME/.bashrc"
     echo ":: applied the configuration"
     ;;
   preserve)
-    preserver ${src%/}/.bash_profile
-    preserver ${src%/}/.bashrc
-    preserver ${src%/}/bash.sh
+    preserver "${src%/}/.bash_profile"
+    preserver "${src%/}/.bashrc"
+    preserver "${src%/}/bash.sh"
     echo ":: downloaded configuration files (preserve)"
-    preserver ${doc%/}/.bash_profile.md
-    preserver ${doc%/}/.bashrc.md
-    preserver ${doc%/}/bash.sh.md
+    preserver "${doc%/}/.bash_profile.md"
+    preserver "${doc%/}/.bashrc.md"
+    preserver "${doc%/}/bash.sh.md"
     echo ":: downloaded documentation files (preserve)"
-    source $HOME/.bashrc
+    source "$HOME/.bashrc"
     echo ":: applied the configuration"
     ;;
 esac
