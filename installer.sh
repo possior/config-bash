@@ -4,9 +4,9 @@ function overwriter() {
   if
     [[ "${1##*/}" =~ ^\.  ]]
   then
-    curl -fsSLo "$HOME/${1##*/}" "$1"
+    curl -fsSLo "${HOME%/}/${2#/}" "${1%/}/${2#/}"
   else
-    curl -fsSLo "$HOME/.config/bash/${1##*/}" "$1"
+    curl -fsSLo "${cfg%/}/${2#/}" "${1%/}/${2#/}"
   fi
 }
 
