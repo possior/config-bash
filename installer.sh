@@ -79,17 +79,21 @@ case "${behavior:-overwrite}" in
     overwriter "$src" ".bash_profile"
     overwriter "$src" ".bashrc"
     overwriter "$src" "bash.sh"
+    echo ":: downloaded configuration files ($behavior)"
     overwriter "$doc" ".bash_profile.md"
     overwriter "$doc" ".bashrc.md"
     overwriter "$doc" "bash.sh.md"
+    echo ":: downloaded documentation files ($behavior)"
     ;;
   preserve)
     preserver "$src" ".bash_profile"
     preserver "$src" ".bashrc"
     preserver "$src" "bash.sh"
+    echo ":: downloaded configuration files ($behavior)"
     preserver "$doc" ".bash_profile.md"
     preserver "$doc" ".bashrc.md"
     preserver "$doc" "bash.sh.md"
+    echo ":: downloaded documentation files ($behavior)"
     ;;
 esac
 
