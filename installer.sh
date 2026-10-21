@@ -1,3 +1,5 @@
+cfg="${HOME%/}/.config/bash"
+
 function overwriter() {
   if
     [[ "${1##*/}" =~ ^\.  ]]
