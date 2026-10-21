@@ -31,6 +31,9 @@ function preserver() {
 }
 echo ":: initiated functions"
 
+[[ -d "$cfg" ]] || mkdir -p "$cfg"
+echo ":: confirmed the configuration directory"
+
 while
   [[ "$#" -gt 0 ]]
 do
@@ -61,13 +64,6 @@ do
 done
 
 echo ":: parsed arguments"
-
-if
-  [[ ! -d "$HOME/.config/bash" ]]
-then
-  mkdir -p "$HOME/.config/bash"
-  echo ":: created the configuration directory"
-fi
 
 case "${behavior:-overwrite}" in
   overwrite)
