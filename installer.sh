@@ -90,5 +90,9 @@ case "${behavior:-overwrite}" in
     preserver "$doc" "bash.sh.md"
     echo ":: downloaded documentation files ($behavior)"
     ;;
+  *)
+    echo "!! detected unknown behavior configuration"
+    exit
+    ;;
 esac
 echo ":: completed installation"
