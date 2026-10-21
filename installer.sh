@@ -1,3 +1,5 @@
+doc="https://raw.githubusercontent.com/possior/config-bash/default/doc/"
+src="https://raw.githubusercontent.com/possior/config-bash/default/src/"
 cfg="${HOME%/}/.config/bash"
 
 function overwriter() {
