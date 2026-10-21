@@ -74,30 +74,23 @@ then
   echo ":: created the configuration directory"
 fi
 
-case ${behavior:-overwrite} in
+case "${behavior:-overwrite}" in
   overwrite)
-    overwriter "${src%/}/.bash_profile"
-    overwriter "${src%/}/.bashrc"
-    overwriter "${src%/}/bash.sh"
-    echo ":: downloaded configuration files (overwrite)"
-    overwriter "${doc%/}/.bash_profile.md"
-    overwriter "${doc%/}/.bashrc.md"
-    overwriter "${doc%/}/bash.sh.md"
-    echo ":: downloaded documentation files (overwrite)"
-    source "$HOME/.bashrc"
-    echo ":: applied the configuration"
+    overwriter "$src" ".bash_profile"
+    overwriter "$src" ".bashrc"
+    overwriter "$src" "bash.sh"
+    overwriter "$doc" ".bash_profile.md"
+    overwriter "$doc" ".bashrc.md"
+    overwriter "$doc" "bash.sh.md"
     ;;
   preserve)
-    preserver "${src%/}/.bash_profile"
-    preserver "${src%/}/.bashrc"
-    preserver "${src%/}/bash.sh"
-    echo ":: downloaded configuration files (preserve)"
-    preserver "${doc%/}/.bash_profile.md"
-    preserver "${doc%/}/.bashrc.md"
-    preserver "${doc%/}/bash.sh.md"
-    echo ":: downloaded documentation files (preserve)"
-    source "$HOME/.bashrc"
-    echo ":: applied the configuration"
+    preserver "$src" ".bash_profile"
+    preserver "$src" ".bashrc"
+    preserver "$src" "bash.sh"
+    preserver "$doc" ".bash_profile.md"
+    preserver "$doc" ".bashrc.md"
+    preserver "$doc" "bash.sh.md"
     ;;
 esac
+
 echo ":: completed installation"
