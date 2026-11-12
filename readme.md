@@ -26,10 +26,8 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.02.01/)、[リリー
-ス](https://github.com/possior/config-bash/releases/tag/ver.01.02.01/) |
-| `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.11/)、[リリー
-ス](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
+| `01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.02.01/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.02.01/) |
+| `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.11/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
 ## 利用許諾
 
