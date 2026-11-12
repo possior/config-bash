@@ -32,6 +32,8 @@ files=(
   "$wd/src/variables.sh"
   "$wd/doc/variables.vim.sh.md"
   "$wd/src/variables.vim.sh"
+  "$wd/src/license.txt"
+  "$wd/src/readme.md"
 )
 dests=(
   "$td/../../.bash_profile.md"
@@ -44,6 +46,8 @@ dests=(
   "$td/variables.sh"
   "$td/variables.vim.sh.md"
   "$td/variables.vim.sh"
+  "$td/license.txt"
+  "$td/readme.md"
 )
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
