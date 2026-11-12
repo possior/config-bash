@@ -9,7 +9,7 @@
 
 ## 版本一覧
 
-| 版号 | 接続先 |
+| 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
 | `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.11/)、[リリー
 ス](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
@@ -27,7 +27,7 @@
 
 ## Version List
 
-| Version | Links |
+| Version Number | Uniform Resource Locator |
 |:---:|:--- |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.11/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
