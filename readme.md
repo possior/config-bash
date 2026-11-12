@@ -4,7 +4,10 @@
 
 ## 目次
 
+- [版本一覧](#版本一覧)
 - [利用許諾](#利用許諾)
+
+## 版本一覧
 
 ## 利用許諾
 
@@ -14,7 +17,10 @@
 
 ## Table of Contents
 
+- [Version List](#version-list)
 - [License](#license)
+
+## Version List
 
 ## License
 
