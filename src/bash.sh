@@ -1,5 +1,6 @@
 config="$HOME/.config/bash"
 
+[[ -f "$config/variables.sh" ]] && source "$config/variables.sh"
 [[ -f "$config/variables.vim.sh" ]] && source "$config/variables.vim.sh"
 
 PS0=""
