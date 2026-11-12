@@ -24,6 +24,7 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 | [`.bash_profile`](./doc/.bash_profile.md) | Bashの標準設定ファイル。 |
 | [`.bashrc`](./doc/.bashrc.md) | Bashの標準設定ファイル。 |
 | [`bash.sh`](./doc/bash.sh.md) | 各設定ファイルを参照してその設定を読み込む設定。 |
+| [`variables.sh`](./doc/variables.sh.md) | 変数に係る設定。 |
 
 ## 版本一覧
 
@@ -60,6 +61,7 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 | [`.bash_profile`](./doc/.bash_profile.md) | Bash's default configuration file. |
 | [`.bashrc`](./doc/.bashrc.md) | Bash's default configuration file. |
 | [`bash.sh`](./doc/bash.sh.md) | Configuration that references each configuration file and loads its configuration. |
+| [`variables.sh`](./doc/variables.sh.md) | Configuration on variables. |
 
 ## Version List
 
