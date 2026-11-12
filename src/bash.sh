@@ -1,3 +1,5 @@
+[[ -f variables.vim.sh ]] && source variables.vim.sh
+
 PS0=""
 PS1="\n[\u@\h] \w\n$ "
 PS2="> "
