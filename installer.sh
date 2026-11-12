@@ -28,6 +28,8 @@ files=(
   "$wd/src/.bashrc"
   "$wd/doc/bash.sh.md"
   "$wd/src/bash.sh"
+  "$wd/doc/variables.sh.md"
+  "$wd/src/variables.sh"
 )
 dests=(
   "$td/../../.bash_profile.md"
@@ -36,6 +38,8 @@ dests=(
   "$td/../../.bashrc"
   "$td/bash.sh.md"
   "$td/bash.sh"
+  "$td/variables.sh.md"
+  "$td/variables.sh"
 )
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
