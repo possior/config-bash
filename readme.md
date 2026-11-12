@@ -64,7 +64,7 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 ## Version List
 
 | Version Number | Uniform Resource Locator |
-|:---:|:--- |
+| :---: | :---  |
 | `01.02` | [repository](https://github.com/possior/config-bash/tree/ver.01.02.01/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.02.01/) |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.11/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
