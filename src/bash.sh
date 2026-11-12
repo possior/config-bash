@@ -1,4 +1,6 @@
-[[ -f variables.vim.sh ]] && source variables.vim.sh
+config="$HOME/.config/bash"
+
+[[ -f "$config/variables.vim.sh" ]] && source "$config/variables.vim.sh"
 
 PS0=""
 PS1="\n[\u@\h] \w\n$ "
