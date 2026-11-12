@@ -1,10 +1,3 @@
-# Dual-Licensing Notice
-
-Unless otherwise indicated by the header or footer of an individual file, this project is dual-licensed under the **Creative Commons Zero v1.0 Universal** (hereafter **CC0 1.0**, see its [legal code](#creative-commons-zero-legal-code) or [website](https://creativecommons.org/publicdomain/zero/1.0)) or **Zero-Clause BSD** (hereafter **0BSD**, see its [legal code](#zero-clause-bsd-legal-code) or [website](https://opensource.org/license/0bsd)) license at your option. Either license grants you the freedom to use, modify, and distribute the software and documentation without restriction; the creator provides this project as-is and disclaims all warranties with regard to this project.
-
-## CC0 1.0 Legal Code
-
-```
 Creative Commons Legal Code
 
 CC0 1.0 Universal
@@ -126,26 +119,3 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
-```
-
-## 0BSD Legal Code
-
-```
-Zero-Clause BSD
-=============
-
-Permission to use, copy, modify, and/or distribute this software for
-any purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED “AS IS” AND THE AUTHOR DISCLAIMS ALL
-WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES
-OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE
-FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY
-DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
-AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
-OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-```
-
-## Human Accountability Notice
-
-This project permits all uses by automated or autonomous systems (e.g., artificial intelligence, algorithms, or any future technological equivalent), including training, analysis, and derivative generation. Should any jurisdiction grant such systems legal personhood or capacity to bear obligations, they shall be recognized as licensees to the extent permitted by that jurisdiction's laws; otherwise, the human operator(s) or legal entity controlling these systems assume full responsibility for compliance with this license, any resulting outputs, and verifying applicable local regulations regarding non-human accountability.
