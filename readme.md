@@ -4,25 +4,7 @@
 
 ## 目次
 
-- [バージョン情報](./version.md)
-- [Bashの設定を適用](#bashの設定を適用)
-- 技術文書
-  - [`.bash_profile`](./doc/.bash_profile.md)
-  - [`.bashrc`](./doc/.bashrc.md)
-  - [`bash.sh`](./doc/bash.sh.md)
 - [利用許諾](#利用許諾)
-
-## Bashの設定を適用
-
-最新版の設定を適用するためには以下の命令文を実行すること。以下のフラッグやオプションをその命令文に続けて付すことで、挙動を調整することができる。
-
-- `-c`, `--cfg`, `--config`, `--config-dir`：設定ディレクトリを指定する。
-- `-o`, `--overwrite`：設定ファイルが既に存在する場合は上書きする。
-- `-p`, `--preserve`：設定ファイルが既に存在する場合は上書きしない。
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/installer.sh | bash -s -- 
-```
 
 ## 利用許諾
 
@@ -30,24 +12,6 @@ curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/install
 
 ## Table of Contents
 
-- [Version Information](./version.md)
-- [Applying Bash Configuration](#applying-bash-configuration)
-- Technical Documents
-  - [`.bash_profile`](./doc/.bash_profile.md)
-  - [`.bashrc`](./doc/.bashrc.md)
-  - [`bash.sh`](./doc/bash.sh.md)
 - [License](#license)
-
-## Applying Bash Configuration
-
-To apply the latest configuration, execute the following command. You can modify the behavior by adding the following flags and options after the command.
-
-- `-c`, `--cfg`, `--config`, `--config-dir`: specify the configuration directory.
-- `-o`, `--overwrite`: overwrite if configuration files already exist.
-- `-p`, `--preserve`: don't overwrite if configuration files already exist.
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/installer.sh | bash -s -- 
-```
 
 ## License
