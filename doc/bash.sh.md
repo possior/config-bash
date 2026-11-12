@@ -8,6 +8,12 @@
 config="$HOME/.config/bash"
 ```
 
+変数に係る設定である。本レポジトリでは`variables.sh`設定ファイルに格納している。以下のBashスクリプトは、`variables.sh`設定ファイルが存在することを確認した後に、それをセッションに読み込む。
+
+```Bash
+[[ -f "$config/variables.sh" ]] && source "$config/variables.sh"
+```
+
 Vimの変数に係る設定である。本レポジトリでは`variables.vim.sh`設定ファイルに格納している。以下のBashスクリプトは、`variables.vim.sh`設定ファイルが存在することを確認した後に、それをセッションに読み込む。
 
 ```Bash
@@ -15,6 +21,12 @@ Vimの変数に係る設定である。本レポジトリでは`variables.vim.sh
 ```
 
 # Bash Document
+
+This is the configuration on variables. In this repository, the `variables.sh` configuration file contains that configuration. The Bash script below loads the `variables.sh` configuration file into the session after checking if it exists.
+
+```Bash
+[[ -f "$config/variables.sh" ]] && source "$config/variables.sh"
+```
 
 This is the configuration on Vim's variables. In this repository, the `variables.vim.sh` configuration file contains that configuration. The Bash script below loads the `variables.vim.sh` configuration file into the session after checking if it exists.
 
