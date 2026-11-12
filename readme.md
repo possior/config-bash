@@ -1,6 +1,6 @@
-[日本語](#Bashの設定)｜[English](#bash-configuration)
+[日本語](#Bash設定)｜[English](#bash-configuration)
 
-# Bashの設定
+# Bash設定
 
 ## 目次
 
