@@ -4,13 +4,13 @@
 
 ## 目次
 
-- [利用許諾（CC0、0BSD）](./license.md)
 - [バージョン情報](./version.md)
 - [Bashの設定を適用](#bashの設定を適用)
 - 技術文書
   - [`.bash_profile`](./doc/.bash_profile.md)
   - [`.bashrc`](./doc/.bashrc.md)
   - [`bash.sh`](./doc/bash.sh.md)
+- [利用許諾](#利用許諾)
 
 ## Bashの設定を適用
 
@@ -24,17 +24,19 @@
 curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/installer.sh | bash -s -- 
 ```
 
+## 利用許諾
+
 # Bash Configuration
 
 ## Table of Contents
 
-- [License (CC0, 0BSD)](./license.md)
 - [Version Information](./version.md)
 - [Applying Bash Configuration](#applying-bash-configuration)
 - Technical Documents
   - [`.bash_profile`](./doc/.bash_profile.md)
   - [`.bashrc`](./doc/.bashrc.md)
   - [`bash.sh`](./doc/bash.sh.md)
+- [License](#license)
 
 ## Applying Bash Configuration
 
@@ -47,3 +49,5 @@ To apply the latest configuration, execute the following command. You can modify
 ```bash
 curl -fsSL https://raw.githubusercontent.com/possior/config-bash/default/installer.sh | bash -s -- 
 ```
+
+## License
