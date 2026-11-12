@@ -21,6 +21,23 @@ done
 wd="$(dirname "${BASH_SOURCE[0]}")"
 td="$HOME/.config/bash"
 
+files=(
+  "$wd/doc/.bash_profile.md"
+  "$wd/src/.bash_profile"
+  "$wd/doc/.bashrc.md"
+  "$wd/src/.bashrc"
+  "$wd/doc/bash.sh.md"
+  "$wd/src/bash.sh"
+)
+dests=(
+  "$td/../../.bash_profile.md"
+  "$td/../../.bash_profile"
+  "$td/../../.bashrc.md"
+  "$td/../../.bashrc"
+  "$td/bash.sh.md"
+  "$td/bash.sh"
+)
+
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
 [[ -z "$mode" ]] && mode=o || exit
