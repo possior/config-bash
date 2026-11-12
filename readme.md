@@ -11,6 +11,12 @@
 
 ## 導入
 
+本リポジトリをGitで複製して`installer.sh`スクリプトを実行すること。`git clone`のオプションについて、`default`は希望するブランチ名やタグ名に置き換えること。`installer.sh`のフラッグについて、設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。このスクリプトは標準では上書きする。
+
+```Bash
+git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/installer.sh; rm -vrf config-bash
+```
+
 ## Bash説明書
 
 | 対象ファイル | 概要 |
@@ -39,6 +45,12 @@
 - [License](#license)
 
 ## Installation
+
+Clone this repository using Git, and execute the `installer.sh` script. On the options of `git clone`, replace `default` with a name of your desired branch or tag. On the falg of `installer.sh`, specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
+
+```Bash
+git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/installer.sh; rm -vrf config-bash
+```
 
 ## Bash Documents
 
