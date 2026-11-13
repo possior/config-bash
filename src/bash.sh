@@ -1,7 +1,7 @@
-config="$HOME/.config/bash"
+src="$HOME/.config/bash/src"
 
-[[ -f "$config/variables.sh" ]] && source "$config/variables.sh"
-[[ -f "$config/variables.vim.sh" ]] && source "$config/variables.vim.sh"
+[[ -f "$src/variables.sh" ]] && source "$src/variables.sh"
+[[ -f "$src/variables.vim.sh" ]] && source "$src/variables.vim.sh"
 
 PS0=""
 PS1="\n[\u@\h] \w\n$ "
