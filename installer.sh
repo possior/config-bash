@@ -22,32 +22,20 @@ wd="$(dirname "${BASH_SOURCE[0]}")"
 td="$HOME/.config/bash"
 
 files=(
-  "$wd/doc/.bash_profile.md"
-  "$wd/src/.bash_profile"
-  "$wd/doc/.bashrc.md"
-  "$wd/src/.bashrc"
-  "$wd/doc/bash.sh.md"
-  "$wd/src/bash.sh"
-  "$wd/doc/variables.sh.md"
-  "$wd/src/variables.sh"
-  "$wd/doc/variables.vim.sh.md"
-  "$wd/src/variables.vim.sh"
+  "$wd/doc"
+  "$wd/src"
   "$wd/license.txt"
   "$wd/readme.md"
+  "$td/src/.bash_profile"
+  "$td/src/.bashrc"
 )
 dests=(
-  "$td/../../.bash_profile.md"
-  "$td/../../.bash_profile"
-  "$td/../../.bashrc.md"
-  "$td/../../.bashrc"
-  "$td/bash.sh.md"
-  "$td/bash.sh"
-  "$td/variables.sh.md"
-  "$td/variables.sh"
-  "$td/variables.vim.sh.md"
-  "$td/variables.vim.sh"
+  "$td/doc"
+  "$td/src"
   "$td/license.txt"
   "$td/readme.md"
+  "$td/../../.bash_profile"
+  "$td/../../.bashrc"
 )
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
@@ -60,10 +48,10 @@ for (( i=0; i<"$n"; i++ ))
 do
   if [[ "$mode" == o ]]
   then
-    cp "${files[i]}" "${dests[i]}"
+    cp -r "${files[i]}" "${dests[i]}"
   elif [[ "$mode" == p ]]
   then
-    [[ ! -f "${dests[i]}" ]] && cp "${files[i]}" "${dests[i]}"
+    [[ ! -f "${dests[i]}" ]] && cp -r "${files[i]}" "${dests[i]}"
   fi
 done
 
