@@ -21,11 +21,15 @@ done
 repo="$(dirname "${BASH_SOURCE[0]}")"
 
 files=(
+  "$repo/doc/.bash_profile.md"
   "$repo/src/.bash_profile"
+  "$repo/doc/.bashrc.md"
   "$repo/src/.bashrc"
 )
 dests=(
+  "$repo/../../.bash_profile.md"
   "$repo/../../.bash_profile"
+  "$repo/../../.bashrc.md"
   "$repo/../../.bashrc"
 )
 
