@@ -18,24 +18,15 @@ do
   esac
 done
 
-wd="$(dirname "${BASH_SOURCE[0]}")"
-td="$HOME/.config/bash"
+repo="$(dirname "${BASH_SOURCE[0]}")"
 
 files=(
-  "$wd/doc"
-  "$wd/src"
-  "$wd/license.txt"
-  "$wd/readme.md"
-  "$td/src/.bash_profile"
-  "$td/src/.bashrc"
+  "$repo/src/.bash_profile"
+  "$repo/src/.bashrc"
 )
 dests=(
-  "$td/doc"
-  "$td/src"
-  "$td/license.txt"
-  "$td/readme.md"
-  "$td/../../.bash_profile"
-  "$td/../../.bashrc"
+  "$repo/../../.bash_profile"
+  "$repo/../../.bashrc"
 )
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
