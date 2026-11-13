@@ -1,4 +1,4 @@
-export MYVIMRC="$HOME/.config/vim/vim.vim"
+export MYVIMRC="$HOME/.config/vim/src/vim.vim"
 export VIMINIT="source $MYVIMRC"
 
 # CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.
