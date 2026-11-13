@@ -31,7 +31,7 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.02.04/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.02.04/) |
+| `01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.02.03/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.02.03/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.11/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
 ## 利用許諾
@@ -69,7 +69,7 @@ git clone -vb default https://github.com/possior/config-bash.git; ./config-bash/
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
-| `01.02` | [repository](https://github.com/possior/config-bash/tree/ver.01.02.04/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.02.04/) |
+| `01.02` | [repository](https://github.com/possior/config-bash/tree/ver.01.02.03/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.02.03/) |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.11/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
 ## License
