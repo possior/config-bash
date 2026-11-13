@@ -20,7 +20,7 @@ git clone -vb default https://github.com/possior/config-bash.git "$HOME/.config/
 複製したリポジトリを更新する。`default`は希望するブランチ名やタグ名に置き換えること。
 
 ```Bash
-cd "$HOME/.config/bash"; git fetch origin; git checkout -f default
+cd "$HOME/.config/bash"; git pull origin default
 ```
 
 一部の設定は`installer.sh`スクリプトを実行して適切な位置に導入する必要がある。設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。
@@ -71,7 +71,7 @@ git clone -vb default https://github.com/possior/config-bash.git "$HOME/.config/
 Update the cloned repository. Replace `default` with a branch or tag name you desire.
 
 ```Bash
-cd "$HOME/.config/bash"; git fetch origin; git checkout -f default
+cd "$HOME/.config/bash"; git pull origin default
 ```
 
 Some configuration require execution of the `installer.sh` script to install them at an appropriate location. Specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
