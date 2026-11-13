@@ -43,6 +43,7 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
+| `01.03` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.03.01/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.03.01/) |
 | `01.02` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.02.03/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.02.03/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-bash/tree/ver.01.01.11/)、[リリース](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
@@ -93,6 +94,7 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
+| `01.03` | [repository](https://github.com/possior/config-bash/tree/ver.01.03.01/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.03.01/) |
 | `01.02` | [repository](https://github.com/possior/config-bash/tree/ver.01.02.03/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.02.03/) |
 | `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.11/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.11/) |
 
