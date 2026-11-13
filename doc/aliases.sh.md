@@ -14,10 +14,10 @@ alias grep='grep --color=auto'
 alias ls='ls -A --color=auto'
 ```
 
-以下のBashスクリプトは、`omegat`命令を`omegat --config-dir="$HOME/.config/omegat/"`命令に上書きする。設定ディレクトリを`$HOME/.config/omegat`に定める。
+以下のBashスクリプトは、`omegat`命令を`omegat --config-dir="$HOME/.config/omegat"`命令に上書きする。設定ディレクトリを`$HOME/.config/omegat`に定める。
 
 ```Bash
-alias omegat='omegat --config-dir="$HOME/.config/omegat/"'
+alias omegat='omegat --config-dir="$HOME/.config/omegat"'
 ```
 
 以下のBashスクリプトは、`yay`命令を`yay --builddir=/var/tmp --color=auto`命令に上書きする。ビルドを`/var/tmp`ディレクトリで行う。ハイライトを自動で行う。
@@ -46,10 +46,10 @@ The Bash script below overwrites the `ls` command with the command `ls -A --colo
 alias ls='ls -A --color=auto'
 ```
 
-The Bash script below overwrites the `omegat` command with the command `omegat --config-dir="$HOME/.config/omegat/"`. It defines `$HOME/.config/omegat` as the configuration directory.
+The Bash script below overwrites the `omegat` command with the command `omegat --config-dir="$HOME/.config/omegat"`. It defines `$HOME/.config/omegat` as the configuration directory.
 
 ```Bash
-alias omegat='omegat --config-dir="$HOME/.config/omegat/"'
+alias omegat='omegat --config-dir="$HOME/.config/omegat"'
 ```
 
 The Bash script below overwrites the `yay` command with the command `yay --builddir=/var/tmp --color=auto`. It builds at the directory `/var/tmp`. Automatic highlighting.
