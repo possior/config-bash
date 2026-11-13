@@ -11,7 +11,7 @@
 
 ## 導入
 
-本リポジトリを`$HOME/.config/bash`ディレクトリに複製する。`default`は希望するブランチ名やタグ名に置き換えること。
+本リポジトリを`$HOME/.config/bash`ディレクトリに複製する。`default`は希望するブランチ名やタグ名に置き換えること。ただし、先に`$HOME/.config/bash`ディレクトリの中に保存されているファイルを全て削除しておくこと。
 
 ```Bash
 git clone -vb default https://github.com/possior/config-bash.git "$HOME/.config/bash"
@@ -62,7 +62,7 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 
 ## Installation
 
-Clone this repository at the directory `$HOME/.config/bash`. Replace `default` with a branch or tag name you desire.
+Clone this repository at the directory `$HOME/.config/bash`. Replace `default` with a branch or tag name you desire. Ensure that you have deleted all the files saved in the directory `$HOME/.config/bash` in advance.
 
 ```Bash
 git clone -vb default https://github.com/possior/config-bash.git "$HOME/.config/bash"
