@@ -1,1 +1,7 @@
+PS0=""
+PS1="\n[\u@\h] \w\n$ "
+PS2="> "
+PS3=": "
+PS4="+ "
+
 # CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

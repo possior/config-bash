@@ -3,12 +3,6 @@ src="$HOME/.config/bash/src"
 [[ -f "$src/variables.sh" ]] && source "$src/variables.sh"
 [[ -f "$src/variables.vim.sh" ]] && source "$src/variables.vim.sh"
 
-PS0=""
-PS1="\n[\u@\h] \w\n$ "
-PS2="> "
-PS3=": "
-PS4="+ "
-
 export GIT_EDITOR="vim"
 export HISTFILE="$HOME/.config/bash/history.sh"
 export HISTFILESIZE="12"
