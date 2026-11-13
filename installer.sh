@@ -33,8 +33,6 @@ dests=(
 
 [[ -z "$mode" ]] && mode=o || exit
 
-mkdir -p "$td"
-
 for (( i=0; i<"$n"; i++ ))
 do
   if [[ "$mode" == o ]]
