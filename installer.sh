@@ -32,8 +32,8 @@ files=(
   "$wd/src/variables.sh"
   "$wd/doc/variables.vim.sh.md"
   "$wd/src/variables.vim.sh"
-  "$wd/src/license.txt"
-  "$wd/src/readme.md"
+  "$wd/license.txt"
+  "$wd/readme.md"
 )
 dests=(
   "$td/../../.bash_profile.md"
